@@ -12,7 +12,7 @@ jobs:
         node-version: [18.18.2]
     steps:
       - name: ✅ Checkout branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: 📀 Install Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
